@@ -4,8 +4,8 @@ Step 2: Containerize the Application using Docker
 Step 3) Building Docker-Image
 Step 4) Push the Image To DockerHub
 Step 5) Write a Kubernetes Manifest File
-Write Deployment.yml file
-Write Service.yml file
+           a-Write Deployment.yml file
+           b-Write Service.yml file
 Step 5) Deploy the app to Kubernetes & Create a Service For It
 Step 6) Let's Configure Ingress
 Ingress:
@@ -34,7 +34,7 @@ sudo snap install kubectl --classic
 minikube start --driver=docker
 
 **Step 1: Clone the source code**
-The first step is to clone the source code for the app. You can do this by using this command git clone [https://github.com/LondheShubham153/reddit-clone-k8s-ingress.git](https://github.com/Lalit-the-git/reddit-clone-yt.git)
+The first step is to clone the source code for the app. You can do this by using this command git clone (https://github.com/Lalit-the-git/reddit-clone-yt.git)
 
 **Step 2: Containerize the Application using Docker**
 Write a Dockerfile with the following code:
